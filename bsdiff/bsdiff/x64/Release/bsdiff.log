@@ -1,0 +1,60 @@
+﻿  blocksort.c
+  bzlib.c
+bzlib.c(996): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1055): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1190): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1416): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+bzlib.c(1417): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+bzlib.c(1422): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(528): note: 参见“setmode”的声明
+bzlib.c(1424): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bzlib.c(1430): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: 参见“fdopen”的声明
+  compress.c
+compress.c(205): warning C4244: “=”: 从“__int64”转换到“Int32”，可能丢失数据
+  crctable.c
+  decompress.c
+  huffman.c
+  randtable.c
+  bsdiff.cpp
+bsdiff.cpp(56): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“TCHAR *”
+  bsdiff.cpp(56): note: 请考虑在格式字符串中使用“%ls”
+  bsdiff.cpp(56): note: 请考虑在格式字符串中使用“%lls”
+  bsdiff.cpp(56): note: 请考虑在格式字符串中使用“%Ls”
+  bsdiff.cpp(56): note: 请考虑在格式字符串中使用“%ws”
+bsdiff.cpp(260): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(388): note: 参见“_open”的声明
+bsdiff.cpp(261): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(501): note: 参见“lseek”的声明
+bsdiff.cpp(266): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: 参见“read”的声明
+bsdiff.cpp(267): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: 参见“close”的声明
+bsdiff.cpp(288): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: 参见“open”的声明
+bsdiff.cpp(289): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(501): note: 参见“lseek”的声明
+bsdiff.cpp(291): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(501): note: 参见“lseek”的声明
+bsdiff.cpp(295): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: 参见“read”的声明
+bsdiff.cpp(296): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: 参见“close”的声明
+bsdiff.cpp(308): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bsdiff.cpp(49): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“TCHAR *”
+  bsdiff.cpp(49): note: 请考虑在格式字符串中使用“%ls”
+  bsdiff.cpp(49): note: 请考虑在格式字符串中使用“%lls”
+  bsdiff.cpp(49): note: 请考虑在格式字符串中使用“%Ls”
+  bsdiff.cpp(49): note: 请考虑在格式字符串中使用“%ws”
+  bsdiff.cpp(264): note: 参见对正在编译的函数 模板 实例化“void err<char*>(int,const char *,T)”的引用
+          with
+          [
+              T=char *
+          ]
+  正在生成代码
+  All 56 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  bsdiff.vcxproj -> D:\Vwork\bsdiff\x64\Release\bsdiff.exe
+  bsdiff.vcxproj -> D:\Vwork\bsdiff\x64\Release\bsdiff.pdb (Full PDB)
