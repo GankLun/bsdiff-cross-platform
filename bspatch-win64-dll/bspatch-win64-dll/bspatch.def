@@ -1,0 +1,3 @@
+LIBRARY bspatch-win64-dll
+EXPORTS
+Java_com_cross_util_PatchUtil_patch
