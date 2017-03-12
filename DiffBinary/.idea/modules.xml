@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DiffBinary.iml" filepath="$PROJECT_DIR$/DiffBinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diffbinary2/diffbinary2.iml" filepath="$PROJECT_DIR$/diffbinary2/diffbinary2.iml" />
+    </modules>
+  </component>
+</project>
