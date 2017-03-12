@@ -1,0 +1,73 @@
+﻿  blocksort.c
+  bzlib.c
+bzlib.c(996): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1055): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1190): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+bzlib.c(1416): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+bzlib.c(1417): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+bzlib.c(1422): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(528): note: 参见“setmode”的声明
+bzlib.c(1424): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bzlib.c(1430): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: 参见“fdopen”的声明
+  compress.c
+compress.c(205): warning C4244: “=”: 从“__int64”转换到“Int32”，可能丢失数据
+  crctable.c
+  decompress.c
+  huffman.c
+  randtable.c
+  bspatch.cpp
+bspatch.cpp(57): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“TCHAR *”
+  bspatch.cpp(57): note: 请考虑在格式字符串中使用“%ls”
+  bspatch.cpp(57): note: 请考虑在格式字符串中使用“%lls”
+  bspatch.cpp(57): note: 请考虑在格式字符串中使用“%Ls”
+  bspatch.cpp(57): note: 请考虑在格式字符串中使用“%ws”
+bspatch.cpp(110): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bspatch.cpp(148): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bspatch.cpp(154): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bspatch.cpp(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+bspatch.cpp(178): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: 参见“open”的声明
+bspatch.cpp(179): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(501): note: 参见“lseek”的声明
+bspatch.cpp(181): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(501): note: 参见“lseek”的声明
+bspatch.cpp(184): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: 参见“read”的声明
+bspatch.cpp(185): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: 参见“close”的声明
+bspatch.cpp(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: 参见“open”的声明
+bspatch.cpp(246): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: 参见“write”的声明
+bspatch.cpp(50): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“TCHAR *”
+  bspatch.cpp(50): note: 请考虑在格式字符串中使用“%ls”
+  bspatch.cpp(50): note: 请考虑在格式字符串中使用“%lls”
+  bspatch.cpp(50): note: 请考虑在格式字符串中使用“%Ls”
+  bspatch.cpp(50): note: 请考虑在格式字符串中使用“%ws”
+  bspatch.cpp(111): note: 参见对正在编译的函数 模板 实例化“void err<char*>(int,const char *,T)”的引用
+          with
+          [
+              T=char *
+          ]
+bspatch.cpp(42): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“TCHAR *”
+  bspatch.cpp(42): note: 请考虑在格式字符串中使用“%ls”
+  bspatch.cpp(42): note: 请考虑在格式字符串中使用“%lls”
+  bspatch.cpp(42): note: 请考虑在格式字符串中使用“%Ls”
+  bspatch.cpp(42): note: 请考虑在格式字符串中使用“%ws”
+  bspatch.cpp(151): note: 参见对正在编译的函数 模板 实例化“void err<char*,int>(int,const char *,T1,T2)”的引用
+          with
+          [
+              T1=char *,
+              T2=int
+          ]
+  正在生成代码
+  All 31 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  bspatch.vcxproj -> D:\Vwork\bspatch\x64\Release\bspatch.exe
+  bspatch.vcxproj -> D:\Vwork\bspatch\x64\Release\bspatch.pdb (Full PDB)
