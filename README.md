@@ -2,6 +2,9 @@
 bsdiff and bspatch which generates binary diff file in server and binary patch file in client
 
 
+![bsdiff bspatch](logo.jpg "bsdiff bspatch")
+
+
 ## DiffBinary
 
 * DiffHelper.startDiffByCmd(String oldApkPath, String newApkPath, String patchPath) that bsdiff by commond in server
