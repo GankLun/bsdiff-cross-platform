@@ -34,3 +34,8 @@ MD5 equals targetMd5Hex
 
 ## Mac
 [Mac](./Mac):  bsdiff bspatch executable file on mac os 
+
+
+## Documentation
+
+- [Binary diff/patch utility](http://www.daemonology.net/bsdiff)
